@@ -1,0 +1,44 @@
+<html>
+<head>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"> </script>
+<script>
+
+$(function() {
+
+
+//var entries = [];
+
+var dmJSON = "http://test.hiskenya.org/api/dataSets.jsonp?callback=?";
+   $.getJSON( dmJSON, function(data) {
+   $.each(data.dataSets, function(s, g) {
+      var tblRow = "<tr>" + "<td>" + g.id + "</td>" + "<td>" + g.name + "</td>" + "</tr>"
+       $(tblRow).appendTo("#entrydata tbody");
+ });
+
+});
+
+});
+</script>
+</head>
+
+<body>
+
+<div class="wrapper">
+<div class="profile">
+<table width = "60%"id= "entrydata" border="1">
+<thead>
+        <th>ID</th>
+        <th>Name</th>
+        
+    </thead>
+  <tbody>
+
+   </tbody>
+</table>
+
+</div>
+</div>
+
+</body>
+
+</html>
