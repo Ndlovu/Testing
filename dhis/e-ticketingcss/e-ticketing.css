@@ -1,0 +1,682 @@
+/*Body*/
+#body
+{
+  height:auto;
+  width:100%;
+  background-size: 100% 100%;
+  display: block;
+  margin: auto;
+}
+
+.home_container
+{ 
+  background-color:#E3E4E4;
+  width:100%;
+  height:auto;
+  position: center;
+  content: block;
+
+}
+
+.home_container1
+{
+  background-color:white;
+  width:100%;
+  margin-top:;
+  height:auto;
+  position: center;
+  content: block;
+}
+
+.account
+{
+  margin-right: 99px;
+}
+.account_down
+{
+  margin-top: 56em;
+}
+
+.content_tab
+{
+  margin-left: 1.5em;
+ 
+}
+.link_tab
+{
+  width:16.66%;
+  background-color:#E0F2F7;
+}
+
+.hold_links
+{
+  margin-left:0em;
+  width: 57.7%;
+
+}
+
+.booking_form
+{
+  width:50%;
+  min-height:100%;
+  max-height:auto;
+  background-color:white;
+  margin-left:80px;
+  margin-top: 20px;
+  position: absolute;
+  opacity: 0.9;
+  padding-top: 0em;
+  padding-left:0em;
+  float:left;
+  border-radius: 2px; 
+   
+}
+
+.google-maps
+{
+  background-color:#E3E4E4;
+  width:35%;
+  min-height:100%;
+  position:absolute;
+  margin-left:765px;
+  margin-top:20px;
+   border-radius:2px;
+}
+
+/*.directions-panel
+{
+  background-color:#E3E4E4;
+  width:20%;
+  height:20%;
+  position:absolute;
+  margin-left:1045px;
+  margin-top:20px;
+   border-radius:2px;
+   overflow: auto;
+}*/
+.carousel_container
+{
+  width:100%;
+  height:70%;
+  position:absolute;
+}
+
+.carousel_container1
+{
+  width:87%;
+  height:70%;
+  position:absolute;
+}
+
+
+.home_side_container
+{
+  background-color:#ffffff;
+  width:32%;
+  height:70%;
+  margin-left:100px;
+  margin-top:10px;
+  margin-bottom:10px;
+  border-radius:5px;
+  float:left;
+  padding-left: 1em;
+
+}
+
+.home_side_panel
+{
+  background-color:white;
+  background:url('../mages/Passport_Money_525x198_tcm312-1203473.jpg');
+  width:100%;
+  height:70%;
+  margin-left:0px;
+  margin-top:10px;
+  margin-bottom:10px;
+  border-radius:5px;
+  float:left;
+  position: relative;
+}
+
+.home_menu_option
+{
+  background-color:white;
+  width:95%;
+  height:10%;
+  margin-left:5px;
+  margin-right:5px;
+  margin-top:2px;
+  margin-bottom:2px;
+  border-radius:1px;
+  position: relative;
+  padding:5px 5px 5px 5px;
+  font-weight: bold;
+  font-size: 20px;
+
+}
+.home_ads_panel
+{
+  background-color:#E3E4E4;
+  width:30%;
+  height:50%;
+  margin-left:80px;
+  margin-top:10px;
+  margin-bottom:10px;
+  border-radius:5px;
+  float:left;
+
+}
+
+.home_ads_panel1
+{
+  background-color:#E3E4E4 ;
+  width:30%;
+  height:50%;
+  margin-left:10px;
+  margin-top:10px;
+  margin-bottom:10px;
+  border-radius:5px;
+  float:left;
+
+}
+
+.ads_image
+{
+  margin-top:5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom:5px;
+  border-radius: 5px;
+}
+.one_way
+{
+  position: absolute;
+  width: 7em;
+  margin-top: 5em;
+}
+.two_way
+{
+  margin-left: 20em;
+  position: absolute;
+  width: 7em;
+  margin-top: 5em;
+}
+.from
+{
+  position: absolute;
+  margin-top: 8em;
+}
+.to
+{
+  position: absolute;
+  margin-top: 8em;
+  margin-left: 20em;
+
+}
+#from_input
+{
+   width: 14em;
+}
+#to_input
+{
+  width: 14em;
+}
+.departing_date
+{
+  margin-top: 13em;
+  position: absolute;
+}
+.returning_date
+{
+  margin-top: 13em;
+  position: absolute;
+  margin-left: 20em;
+}
+#journey_input
+{
+  width: 17em;
+}
+.search_bus
+{
+  margin-top: 16em;
+}
+.hold_input_gly
+{
+  
+  width: 17em;
+}
+.cover
+{
+  margin-left: -1em;
+}
+
+table a:link {
+  color: #666;
+  font-weight: bold;
+  text-decoration:none;
+}
+table a:visited {
+  color: #999999;
+  font-weight:bold;
+  text-decoration:none;
+}
+table a:active,
+table a:hover {
+  color: #bd5a35;
+  text-decoration:underline;
+}
+table {
+  font-family:Arial, Helvetica, sans-serif;
+  color:#666;
+  font-size:12px;
+  text-shadow: 1px 1px 0px #fff;
+  background:#eaebec;
+  margin:20px;
+  
+
+  -moz-border-radius:3px;
+  -webkit-border-radius:3px;
+  border-radius:3px;
+
+  -moz-box-shadow: 0 1px 2px #d1d1d1;
+  -webkit-box-shadow: 0 1px 2px #d1d1d1;
+  box-shadow: 0 1px 2px #d1d1d1;
+}
+table th {
+  padding:21px 25px 22px 25px;
+  border-top:1px solid #fafafa;
+  border-bottom:1px solid #e0e0e0;
+
+  background: #ededed;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ededed), to(#ebebeb));
+  background: -moz-linear-gradient(top,  #ededed,  #ebebeb);
+}
+table th:first-child{
+  text-align: left;
+  padding-left:20px;
+}
+table tr:first-child th:first-child{
+  -moz-border-radius-topleft:3px;
+  -webkit-border-top-left-radius:3px;
+  border-top-left-radius:3px;
+}
+table tr:first-child th:last-child{
+  -moz-border-radius-topright:3px;
+  -webkit-border-top-right-radius:3px;
+  border-top-right-radius:3px;
+}
+table tr{
+  text-align: center;
+  padding-left:20px;
+}
+table tr td:first-child{
+  text-align: left;
+  padding-left:20px;
+  border-left: 0;
+}
+table tr td {
+  padding:18px;
+  border-top: 1px solid #ffffff;
+  border-bottom:1px solid #e0e0e0;
+  border-left: 1px solid #e0e0e0;
+  
+  background: #fafafa;
+  background: -webkit-gradient(linear, left top, left bottom, from(#fbfbfb), to(#fafafa));
+  background: -moz-linear-gradient(top,  #fbfbfb,  #fafafa);
+}
+table tr.even td{
+  background: #f6f6f6;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f8f8f8), to(#f6f6f6));
+  background: -moz-linear-gradient(top,  #f8f8f8,  #f6f6f6);
+}
+table tr:last-child td{
+  border-bottom:0;
+}
+table tr:last-child td:first-child{
+  -moz-border-radius-bottomleft:3px;
+  -webkit-border-bottom-left-radius:3px;
+  border-bottom-left-radius:3px;
+}
+table tr:last-child td:last-child{
+  -moz-border-radius-bottomright:3px;
+  -webkit-border-bottom-right-radius:3px;
+  border-bottom-right-radius:3px;
+}
+table tr:hover td{
+  background: #f2f2f2;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f2f2f2), to(#f0f0f0));
+  background: -moz-linear-gradient(top,  #f2f2f2,  #f0f0f0);  
+}
+.glyphicon-ok-sign
+{
+  font-size: 20px;
+}
+#bus_structure
+{
+  
+  width:auto;
+  background-color: rgb(230, 230, 230);
+  height:auto;         
+  margin-left: 5.8em;
+  margin-top: 1em;
+  position: absolute;
+  padding-left: -2em
+
+
+}
+#bus_structure_login
+{
+  
+  width:auto;
+  background-color: rgb(230, 230, 230);
+  height:auto;         
+  margin-left: 5.8em;
+  margin-top: 1em;
+  position: absolute;
+
+
+
+}
+.booking_details
+{
+  background-color: rgb(230, 230, 230);
+  width: 19em;
+  height: 24.2em;
+  margin-left:68em;
+  position: absolute;
+  float: right;
+  margin-top:1em;
+}
+.booking_details_login
+{
+  background-color: rgb(230, 230, 230);
+  width: 17em;
+  height: 24.2em;
+  margin-left:68em;
+  position: absolute;
+  float: right;
+  margin-top:1em;
+}
+.client_infor
+{
+  border: 1px solid rgb(153, 153, 153);
+  width: 50%;
+  height: 24.6em;
+  margin-left: 11.8em;
+  margin-top: 1em;
+  position: absolute;
+  border-color: D5CCCC;
+  border-radius: 0.3em;
+}
+.inner_infor_ticket{
+
+  height: 2.8em;
+  text-align: center;
+  width: 100%;
+    border: 1px rgb(153, 153, 153);
+  text-align: left;
+  padding-left: 1em;
+  background-color: rgb(153, 153, 153);
+   border-top-right-radius: 0.3em;
+  border-top-left-radius: 0.3em;
+}
+.inner_infor
+{
+  height: 2.8em;
+  width: 100%;
+  border: 1px rgb(153, 153, 153);
+  text-align: left;
+  padding-left: 1em;
+  background-color: rgb(153, 153, 153);
+  border-top-right-radius: 0.3em;
+  border-top-left-radius: 0.3em;
+  
+
+}
+.tickect_details
+{
+  width: 20%;
+  height: 24.6em;
+  margin-left: 62em;
+  border: 1px solid rgb(153, 153, 153);
+  margin-top: 1em;
+  position: absolute;/*
+  background-color: rgb(233, 233, 233);*/
+  border-radius: 0.3em;
+
+}
+/*new*/
+.tickect_details_payment
+{
+  width: 21.3%;
+  height: 24.6em;
+  margin-left: 62em;
+  border: 1px solid rgb(153, 153, 153);
+  margin-top: -47em;
+  position: absolute;/*
+  background-color: rgb(233, 233, 233);*/
+  border-radius: 0.3em;
+
+}
+.payment_methods
+{
+  border: 1px solid rgb(153, 153, 153);
+  width: 50%;
+  height: 10em;
+  margin-left: 11.8em;
+  margin-top: 26em;
+  position: absolute;
+  padding-bottom: 7em;
+}
+.visa_infor
+{
+  height: 2.5em;
+  width: 100%;
+  border: 1px rgb(153, 153, 153);
+  text-align: left;
+  padding-left: 1em;
+  margin-top: 5.1em;
+  position: relative;
+  background-color: D5CCCC;
+}
+#two_way
+{
+  margin-left: 17em;
+
+  margin-top: 0em;
+
+}
+.lable
+{
+  width: 15em;
+  position: absolute;
+  margin-top: 1em;
+  padding-left: 0.4em;
+}
+.whole_field
+{
+   padding-bottom: 0.5em;
+   padding-top:0.5em; 
+}
+.mpesa
+{
+  height: 2.5em;
+  width: 100%;
+  text-align: left;
+  padding-left: 1em;
+  border-bottom: 1px solid rgb(153, 153, 153);
+}
+.payment_infor
+{
+  height: 2.5em;
+  width: 100%;
+  border: 1px rgb(153, 153, 153);
+  text-align: left;
+  padding-left: 1em;
+  padding-top: 0.5em;
+  margin-bottom: 0.2em;
+  background-color: D5CCCC;
+}
+.notify
+{
+  padding: 1em 1em 0em 1em;
+}
+.notity_text
+{
+  padding-left: 4em;
+  margin-top: -2em;
+}
+#seats
+{
+ 
+  width: 3em;
+}
+#name
+{
+  margin-left: 17em;
+
+  margin-top: 0em;
+
+}
+#phone_number
+{
+  /*margin-left: 17em;*/
+
+  margin-top: 0em;
+
+}
+#email
+{
+  margin-left: 17em;
+
+  margin-top: 0em;
+
+}
+#promotion_code
+{
+  margin-left: 17em;
+
+  margin-top: 0em;
+
+}
+#id_number
+{
+  margin-left: 17em;
+
+  margin-top: 0em;
+
+}
+  
+.submit_booking
+{
+  margin-left: 54.5em;
+  margin-bottom:1em;
+  width: 5em; 
+}
+#error_div
+{
+  width:18em;
+  height: 2em;
+  text-align: center;
+  color: red;
+  background-color:rgb(230, 230, 230); 
+  position: absolute;
+  margin-left: 36em;
+  
+}
+.total_fare
+{
+  position: absolute; 
+  height: 15em;
+  width: 100%;
+
+}
+.hold_currency
+{
+  width: 2em;
+  position: absolute;
+  margin-left: 1em;
+  margin-top: 7em;
+  float: left;
+
+}
+.fare
+{
+  position: absolute;
+  width: 3em;
+  margin-top: 7em;
+  float: right;
+  margin-left: 7em;
+}
+.origin
+{
+  position: absolute;
+  width: 5em;
+  margin-top: 1em;
+  margin-left: 1em;
+
+}
+.hold_origin
+{
+   position: absolute;
+  width: 3em;
+  margin-top: 1em;
+  float: right;
+  margin-left: 7em;
+}
+.destination
+{
+  width: 5em;
+  margin-top: 3em;
+  position: absolute;
+  margin-left: 1em;
+}
+.hold_destination
+{
+   position: absolute;
+  width: 3em;
+  margin-top: 3em;
+  float: right;
+  margin-left: 7em;
+}
+.seats_selected
+{
+   width: 5em;
+  margin-top: 5em;
+  position: absolute;
+  margin-left: 1em;
+}
+.hold_seats_selected
+{
+  position: absolute;
+  width: 3em;
+  margin-top: 5em;
+  float: right;
+  margin-left: 7em;
+}
+/*28 Feb*/
+.tkelement
+{
+  margin-left: 12em;
+  margin-top: -1.5em;
+}.tkheaders
+{
+  margin-left: 1em;
+  padding-bottom: 0.3em;
+}
+.holdtkdetails{
+  margin-top: 1em;
+}
+.thanks{
+  padding-left: 0em;
+  text-align: center;
+  padding-top: 4em;
+}
+#submit_for
+{
+  margin-left: 42em;
+}
+.tkelement_pay
+{
+  margin-left: 8em;
+  margin-top: -1.6em;
+}

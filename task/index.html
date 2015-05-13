@@ -2,12 +2,8 @@
 <head>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"> </script>
 <script>
-
 $(function() {
-
-
 //var entries = [];
-
 var dmJSON = "http://test.hiskenya.org/api/dataSets.jsonp?callback=?";
    $.getJSON( dmJSON, function(data) {
    $.each(data.dataSets, function(s, g) {
@@ -16,8 +12,15 @@ var dmJSON = "http://test.hiskenya.org/api/dataSets.jsonp?callback=?";
  });
 
 });
-
 });
+
+$(function() {
+    $(selector).pagination({
+        items: 100,
+        itemsOnPage: 10
+        });
+});
+
 </script>
 </head>
 

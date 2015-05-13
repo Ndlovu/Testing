@@ -1,0 +1,231 @@
+/*Header CSS*/
+
+#header
+{
+  background-color:#33414E;/*#E3E4E4*/
+  margin-bottom:0em;
+}
+
+#container-fluid
+{
+  margin-top:0px;
+  margin-bottom:;
+  margin-left:50px;
+  margin-right:50px;
+}
+
+
+#logo
+{
+  font-family: sans-serif;
+  font-weight:bold;
+  font-size: ;
+  color:white;
+ /* background:url('../images/bus-1.png') no-repeat;*/
+  margin-right:10px;
+  margin-top:10px;
+
+}
+
+#header_menus
+{
+  margin-top:10px;
+  color:white;
+  background-color:;
+  border-radius: 5px;
+  margin-left:2px ;
+  font-weight:;
+}
+
+#loginfields
+{
+  margin-bottom:5px; 
+  border-radius: 5px;
+}
+
+#searchbar
+{
+  margin-top:10px;
+}
+
+#main-dropdown-menu
+{
+  
+  border-radius: 5px;
+  background-color: #33414E; 
+  margin-left:0px;
+  width:1000%;
+  height:500%;
+  padding:5px 5px 5px 5px;
+  margin-top:15px;
+}
+
+#dropdown-menu
+{
+  
+  border-radius: 5px;
+  background-color: #00294F; 
+  margin-left:100px;
+  width:300%;
+  padding:5px 5px 5px 5px;
+  margin-top:15px;
+}
+
+#user-dropdown-menu
+{
+  
+  border-radius: 5px;
+  background-color: white; 
+  margin-left:100px;
+  width:100%;
+  padding:5px 5px 5px 5px;
+  margin-top:15px;
+}
+
+#userheaderdropdown
+{
+  margin-top:15px;
+}
+
+#user_btn_group
+{
+  margin-top:0px;
+}
+
+#feedback
+{
+  display: block;
+  position: fixed;
+  top: 250px;
+  right: -65px;
+  border:1px solid #030;
+  border-left-color: #060;
+  border-top-color: #090;
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+
+#feedback a:hover
+{
+  background-color: #030;
+  border: 1px solid #030;
+}
+
+.feedback_form
+{
+  display: block;
+  position: fixed;
+  top: 185px;
+  right: 33px;
+  border:1px solid #030;
+  border-left-color: #060;
+  border-top-color: #090;
+}
+
+.box
+{
+  position: absolute;
+  width: 400px;
+  height: 200px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  border: 1px solid red;
+  display: none;
+
+}
+.search-bar
+{
+  margin-top:20px;
+  width:40%;
+}
+
+.header_container 
+{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.dropdown
+{
+  margin-top:25px;
+  margin-left:5px;
+  margin-right:60px;
+  position:relative;
+  border-radius: 5px;
+}
+
+.login_panel
+{
+  width:16em;
+  height:auto;
+  border-radius: 5px;
+  background-color: ;
+  margin-left:0px;
+}
+
+.login_area
+{
+  padding : ;
+  background-color:;/*#E3E4E4*/
+  margin-left:0px;
+  margin-right:5px;
+  margin-top:5px;
+  margin-bottom:5px;
+  width:;
+  border-radius:5px;
+  font-size:15px;
+}
+
+.signup_area
+{
+  padding : ;
+  background-color:;/*#E3E4E4*/
+  margin-left:15px;
+  margin-right:5px;
+  margin-top:5px;
+  margin-bottom:5px;
+  width:;
+  border-radius:5px;
+  font-size:15px;
+}
+
+/*Footer*/
+
+#footer
+{
+  background-color:black;
+  margin-top: 0em;
+  height: 4em;
+}
+
+/*.footer_container 
+{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: red;
+}*/
+
+.theme-settings .ts-button {
+    position: absolute;
+    left: -36px;
+    height: 36px;
+    width: 36px;
+    top: 10px;
+    background: none repeat scroll 0% 0% rgba(0, 0, 0, 0.9);
+    border-radius: 5px 0px 0px 5px;
+    font-size: 19px;
+    color: #FFF;
+    line-height: 34px;
+    text-align: center;
+    cursor: pointer;
+}
